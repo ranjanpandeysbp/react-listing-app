@@ -1,0 +1,53 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(247, 243, 239);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;/*aligns item/content inside this parent vertically center*/
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 5;
+}
+.topbar-left,
+.topbar-right{
+    flex: 3;/*occupy 3 columns from total of 12parts*/
+    display: flex;
+    align-items: center;/*aligns item/content inside this parent vertically center*/
+    justify-content: center;/*aligns item/content inside this parent horizontally center*/
+}
+.topbar-center{
+    flex: 6;/*occupy 6 columns from total of 12parts*/
+}
+.topbar-profile-pic{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;/*it will make the img as circle*/
+    object-fit: cover;/*it will resize the img or video to fit to the container size i.e here is 45px by 45px*/
+}
+.topbar-social-icon{
+    margin-right: 12px;
+    cursor: pointer;/*shows hand on hover over the icon*/
+    font-size: 22px;
+    color: var(--primary-color);
+}
+.topbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;/*get rid of dots from the li tag*/
+}
+.topbar-list-item{
+    margin-right: 22px;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+.topbar-search{
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
+}

@@ -1,0 +1,60 @@
+.sidebar-section{
+    flex: 3;/*occupy 3 parts from total of 12parts so that listing section can take 9parts*/
+    margin: 20px;
+    padding-bottom: 32px;
+    background-color: rgb(247, 243, 239);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar-subsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar-title{
+    text-transform: uppercase;
+    margin: 12px;
+    padding: 6px;
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    font-family: 'Raleway', sans-serif;
+    line-height: 22px;
+    font-weight: 600;
+}
+.sidebar-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.sidebar-subsection > p{/*target the 1st p tag inside the elment which is using the class as sidebar-subsection*/
+    padding: 28px;
+    text-align: center;
+}
+.sidebar-categories{
+    list-style: none;
+    margin-bottom: 25px;
+}
+.sidebar-category{
+    display: inline-block;/*align items horizontally on same line*/
+    width: 50%;
+    margin-top: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.sidebar-social-icons{
+    margin-top: 12px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-social-icon{
+    margin-right: 12px;
+    cursor: pointer;/*shows hand on hover over the icon*/
+    font-size: 22px;
+    color: var(--primary-color);
+}

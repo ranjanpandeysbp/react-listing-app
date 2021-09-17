@@ -1,0 +1,22 @@
+.create-listing-img-upload{
+    cursor: pointer;
+}
+.create-listing{
+    padding-top: 40px;
+}
+.create-listing-form-group{
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+}
+.upload-icon{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 22px;
+}
