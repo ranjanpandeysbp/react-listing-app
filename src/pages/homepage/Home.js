@@ -9,7 +9,6 @@ function Home() {
         <div>
             <Header />
             <div className="home-page">
-			hello world
                 <Listing />
                 <Sidebar />
             </div>

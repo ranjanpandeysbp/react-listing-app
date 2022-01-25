@@ -45,6 +45,10 @@
     cursor: pointer;
     color: var(--primary-color);
 }
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 .topbar-search{
     color: var(--primary-color);
     cursor: pointer;
